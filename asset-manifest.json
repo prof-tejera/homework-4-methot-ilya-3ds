@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.4954cce4.chunk.css",
-    "main.js": "/static/js/main.174c2d3d.chunk.js",
-    "main.js.map": "/static/js/main.174c2d3d.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.54c00196.js",
-    "runtime-main.js.map": "/static/js/runtime-main.54c00196.js.map",
-    "static/js/2.cacfbc52.chunk.js": "/static/js/2.cacfbc52.chunk.js",
-    "static/js/2.cacfbc52.chunk.js.map": "/static/js/2.cacfbc52.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.4954cce4.chunk.css.map": "/static/css/main.4954cce4.chunk.css.map",
-    "static/js/2.cacfbc52.chunk.js.LICENSE.txt": "/static/js/2.cacfbc52.chunk.js.LICENSE.txt"
+    "main.css": "/homework-4-methot-ilya-3ds/static/css/main.4954cce4.chunk.css",
+    "main.js": "/homework-4-methot-ilya-3ds/static/js/main.174c2d3d.chunk.js",
+    "main.js.map": "/homework-4-methot-ilya-3ds/static/js/main.174c2d3d.chunk.js.map",
+    "runtime-main.js": "/homework-4-methot-ilya-3ds/static/js/runtime-main.3478802b.js",
+    "runtime-main.js.map": "/homework-4-methot-ilya-3ds/static/js/runtime-main.3478802b.js.map",
+    "static/js/2.3fdc13de.chunk.js": "/homework-4-methot-ilya-3ds/static/js/2.3fdc13de.chunk.js",
+    "static/js/2.3fdc13de.chunk.js.map": "/homework-4-methot-ilya-3ds/static/js/2.3fdc13de.chunk.js.map",
+    "index.html": "/homework-4-methot-ilya-3ds/index.html",
+    "static/css/main.4954cce4.chunk.css.map": "/homework-4-methot-ilya-3ds/static/css/main.4954cce4.chunk.css.map",
+    "static/js/2.3fdc13de.chunk.js.LICENSE.txt": "/homework-4-methot-ilya-3ds/static/js/2.3fdc13de.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.54c00196.js",
-    "static/js/2.cacfbc52.chunk.js",
+    "static/js/runtime-main.3478802b.js",
+    "static/js/2.3fdc13de.chunk.js",
     "static/css/main.4954cce4.chunk.css",
     "static/js/main.174c2d3d.chunk.js"
   ]
