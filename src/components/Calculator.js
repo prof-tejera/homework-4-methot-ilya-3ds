@@ -4,7 +4,28 @@ import Number from "./Number";
 import Operator from "./Operator";
 import Screen from "./Screen";
 
+
+const Styles = {
+  CalculatorContainer: {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems:'center',
+    alignContent: 'center',
+    width: '350px',
+    margin: '20px',
+    backgroundColor: 'grey',
+    padding: '10px'
+  },
+  Numbers: {
+    display: 'inherit',
+    flexDirection: 'row',
+    flexWrap: 'wrap'
+
+  }
+}
+
 class Calculator extends Component {
+
   state = {
     first: null,
     operator: null,
@@ -45,10 +66,10 @@ class Calculator extends Component {
   render() {
     return (
       <>
+      <div style={Styles.CalculatorContainer}>
         <Screen value={this.getScreenValue()} />
         <div style={{ display: "flex" }}>
-          <div>
-            <Number value={0} onClick={this.handleNumberClick} />
+          <div style={Styles.Numbers}>    
             <Number value={1} onClick={this.handleNumberClick} />
             <Number value={2} onClick={this.handleNumberClick} />
             <Number value={3} onClick={this.handleNumberClick} />
@@ -58,6 +79,7 @@ class Calculator extends Component {
             <Number value={7} onClick={this.handleNumberClick} />
             <Number value={8} onClick={this.handleNumberClick} />
             <Number value={9} onClick={this.handleNumberClick} />
+            <Number value={0} onClick={this.handleNumberClick} />
           </div>
           <div style={{ paddingLeft: 10 }}>
             <Operator value="+" onClick={this.handleOperatorClick} />
@@ -67,6 +89,7 @@ class Calculator extends Component {
             <Operator value="=" onClick={this.handleOperatorClick} />
             <Operator value="clear" onClick={this.handleOperatorClick} />
           </div>
+        </div>
         </div>
       </>
     );
